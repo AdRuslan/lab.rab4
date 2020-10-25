@@ -1,0 +1,54 @@
+body {
+  font-family: "Prata", serif;
+  font-size: 18px;
+  color: #7a7a7a;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+
+/* Header
+===================*/
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    /* padding: 32px 0; */
+}
+
+.nav{
+    display: inline-block;
+    
+    font-size: 20px;
+    align-content: center;
+    
+    
+}
+
+.nav__link {
+    display: block;
+    float: left;
+    padding: 28px 23px;
+    color: #1d1d1d;
+    text-decoration: none;
+    transition: background  .2s;
+}
+
+.nav__link:hover{
+    background: #12ac99;
+    color: white;
+}
