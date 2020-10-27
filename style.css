@@ -82,6 +82,7 @@ p {
   position: absolute;
   bottom: 0;
   right: 137px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .info__top {
@@ -134,33 +135,73 @@ p {
   color: #403f3f;
 }
 
-.info__title2{
+.info__title2 {
   margin: 46px 0 37px;
   color: white;
   font-weight: 400;
 }
 
-.date{
+.date {
   width: 100%;
   max-width: 375px;
   margin: 0 auto;
 }
 
-.date__element{
+.date__element {
   width: 60px;
   font-size: 16px;
   margin-left: 45px;
   float: left;
   color: white;
-
 }
 
-.date__element:first-child{
+.date__element:first-child {
   margin-left: 0;
 }
 
-
-.date__span{
+.date__span {
   font-size: 40px;
+}
+
+/* Social buttons
+===================*/
+
+.social {
+  position: absolute;
+  margin: 250px 0;
+  height: 380px;
+  width: 94px;
+  background: #05a893;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.social__btn {
+  display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #05a893;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.social__btn:first-child {
+  margin-top: 45px;
+}
+
+a svg:hover #facebook,
+a svg:hover #twitter,
+a svg:hover #instagram,
+a svg:hover #youtube {
+  fill: rgb(56, 56, 56);
+  width: 32px;
+  height: 32px;
+}
+
+a svg:hover{
+  transform: scale(1.5);
 }
 
