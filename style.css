@@ -192,6 +192,10 @@ p {
   margin-top: 45px;
 }
 
+a svg {
+  transition: 0.4s;
+}
+
 a svg:hover #facebook,
 a svg:hover #twitter,
 a svg:hover #instagram,
@@ -201,7 +205,56 @@ a svg:hover #youtube {
   height: 32px;
 }
 
-a svg:hover{
+a svg:hover {
   transform: scale(1.5);
 }
 
+/* Arrow buttons
+===================*/
+
+.arrow {
+  position: absolute;
+  width: 220px;
+  bottom: 0;
+  left: 140px;
+}
+
+.arrow__btn {
+  position: relative;
+  width: 108px;
+  height: 85px;
+  background: #05a893;
+  transition: background 0.2s;
+}
+
+.arrow__btn:hover {
+  background: #09e2a7;
+}
+
+.arrow .left {
+  float: left;
+  border-top-left-radius: 40%;
+}
+
+.arrow .right {
+  float: right;
+  border-top-right-radius: 40%;
+}
+
+.left a img,
+.right a img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* About
+===================*/
+
+.about {
+  height: 200px;
+  background: green;
+}
