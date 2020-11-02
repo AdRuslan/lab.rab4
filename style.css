@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   color: #7a7a7a;
   background-color: #fff;
+  line-height: 28px;
 }
 
 *,
@@ -33,7 +34,6 @@ p {
 
 .container {
   width: 100%;
-  font-size: 0;
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
@@ -41,6 +41,12 @@ p {
 
 /* Nav
 ===================*/
+
+#nav_container {
+  font-size: 0px;
+  line-height: normal;
+}
+
 .nav {
   display: inline-block;
   font-size: 20px;
@@ -255,6 +261,96 @@ a svg:hover {
 ===================*/
 
 .about {
-  height: 200px;
-  background: green;
+  height: 1010px;
+  position: relative;
 }
+
+.about .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* About decoration pic
+===================*/
+
+.about img {
+  position: absolute;
+
+  right: 0;
+  margin-top: 325px;
+}
+
+/* About title
+===================*/
+
+.about__title {
+  width: 665px;
+  margin: 0 auto;
+  padding-top: 98px;
+}
+
+.about__title h2 {
+  font-size: 48px;
+  font-family: "Sail", cursive;
+  color: #05a893;
+  font-weight: 400;
+}
+
+.about__title p {
+  margin-top: 30px;
+  margin-bottom: 78px;
+}
+
+/* About gallery
+===================*/
+
+.about__gallery {
+  height: 610px;
+  background: red;
+  z-index: 1;
+}
+
+.about__inf {
+  width: 50%;
+  height: 50%;
+  background: green;
+  float: left;
+}
+
+/* About groom
+===================*/
+
+.groom1 {
+  background: #f5fdff;
+  text-align: left;
+}
+
+.groom1__inner{
+  width: 490px;
+  margin: 0 auto;
+}
+
+.groom1 h3{
+  display: block;
+  font-family: "Sail", cursive;
+  font-size: 30px;
+  color: #05a893;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.groom1__line{
+  display: block;
+  float: left;
+  margin: 77px 0 0 20px;
+  height: 2px;
+  width: 48px;
+  background: #05a893;
+}
+
+.groom1 p{
+  color: #666666;
+}
+
