@@ -701,13 +701,39 @@ p {
 
 .ceremony__card{
   float: left;
+  position: relative;
   height: 246px;
   width: 370px;
   margin: 0 30px 30px 0;
-  background: red;
+  box-shadow: 0 0 5px rgb(133, 133, 133);
+  text-align: left;
+  transition: background .2s;
 }
 
 
 .ceremony__card--3, .ceremony__card--6{
   margin-right: 0;
 }
+
+.ceremony__card h3{
+  position: absolute;
+  height: 246px;
+  width: 370px;
+  font-size: 25px;
+  color: #05a893;
+  padding: 45px 0 0 45px;
+}
+
+.ceremony__inf{
+  margin: 100px 0 0 45px;
+}
+
+.ceremony__card:hover{
+  background: #05a893;
+  color: white;
+}
+
+.ceremony__card h3:hover{
+  color: white;
+}
+
