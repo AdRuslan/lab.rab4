@@ -577,3 +577,137 @@ p {
   background-image: url(images/story/4.jpg);
   background-size: cover;
 }
+
+
+/* Our People
+===================*/
+
+.people{
+  height: 1050px;
+  background: #f5fdff;
+}
+
+.people__relatives{
+  font-family: Sail, cursive;
+  font-size: 30px;
+  color: #5d5d5d; 
+}
+
+.relatives1{
+  float: left;
+}
+
+.relatives2{
+  float: right;
+}
+
+
+/* Our People cards
+===================*/
+
+.people__card{
+  float: left;
+  position: relative;
+  height: 270px;
+  width: 270px;
+  background: green;
+  margin: 30px 30px 0 0;
+  background-size: cover;
+  color: white;
+}
+
+
+
+.card1{
+  background-image: url(images/family/g1.jpg);  
+}
+
+.card2{
+  background-image: url(images/family/g2.jpg);
+}
+
+.card3{
+  background-image: url(images/family/b1.jpg);
+}
+
+.card4{
+  background-image: url(images/family/b2.jpg);
+  margin-right: 0;
+}
+
+.card5{
+  background-image: url(images/family/g3.jpg);
+}
+
+.card6{
+  background-image: url(images/family/g4.jpg);
+}
+
+.card7{
+  background-image: url(images/family/b3.jpg);
+}
+
+.card8{
+  background-image: url(images/family/b4.jpg);
+  margin-right: 0;
+}
+
+
+.people__description{
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  opacity: 0%;
+  background: #0fa28f;
+}
+
+.people__description:hover{
+  opacity: 100%;
+}
+
+.people-name{
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+.role{
+  float: left;
+  font-size: 16px;
+  margin: 0 12px;
+}
+
+.card-line{
+  float: left;
+  height: 1px;
+  width: 26px;
+  background: white;
+  margin-top:10px;
+}
+
+.center{
+  display: inline-block;
+  align-content: center;
+}
+
+
+
+/* Ceremony
+===================*/
+
+.ceremony{
+  height: 915px;
+
+}
+
+.ceremony__card{
+  float: left;
+  height: 246px;
+  width: 370px;
+  margin: 0 30px 30px 0;
+  background: red;
+}
+
+
+.ceremony__card--3, .ceremony__card--6{
+  margin-right: 0;
+}
